@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Homepage</title>
+
+  <!-- Bootstrap core CSS -->
+  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="../UI/css/simple-sidebar.css">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading"><img src="../src/img/logo.png" alt="" width="40">HotelListing</div>
+      <div class="list-group list-group-flush">
+        <a href="dashbord.html" class="list-group-item list-group-item-action bg-light">Home</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user"> Account</i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+              <a class="dropdown-item" href="signup.html">SignUp</a>
+              <a class="dropdown-item" href="login.html">Login</a>
+            </div>
+          </li>
+        <a href="signup.html" class="list-group-item list-group-item-action bg-light">
+            <img src="../UI/img/admin1.ico" alt="admin image" class="photo img-fluid rounded-circle" width="30"> Admin</a>
+        <a href="profile.html" class="list-group-item list-group-item-action bg-light">Profile</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
+            <a class="navbar-brand" id="menu-toggle" href="index.html"><em>HotelApp</em></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+              aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+              <ul class="navbar-nav mr-auto">
+                <!-- <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Booking
+                  </a>
+                  <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                    <a class="dropdown-item" href="#">How to make Bookings</a>
+                    <a class="dropdown-item" href="#">How to make payments</a>
+                  </div>
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item">
+                  <a href="http://twitter.com/abonyi_michael" class="nav-link waves-effect waves-light">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user"> Account</i>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                    <a class="dropdown-item" href="signup.html">SignUp</a>
+                    <a class="dropdown-item" href="login.html">Login</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+
+    
+    <!-- /#page-content-wrapper -->
+     
+  <div class="container searchContainer">
+      <div class="search card card-body">
+        <h3>Search For Lists of hotels in Nigeria </h3>
+        <p class="lead">Enter a name to fetch an hotel details and booking</p>
+        <input type="text" id="searchUser" class="form-control" placeholder="serach for hotels...">
+      </div>
+  
+      <div id="profile"></div>
+    </div>
+    <section class="mt-5">
+      <h2 class="text-center"><em>HotelListing.com</em></h2>
+      <p class="lead text-center">Find and book the best hotels and apartments around Nigeria</p>
+    </section>
+    
+   
+    
+    <footer class="mt-5 p-3 text-center bg-light">
+      Hotel Listing System &copy;
+    </footer>
+  </div>
+  <!-- /#wrapper -->
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+  </script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js">
+  </script>
+<script src="../UI/js/getHotel.js"></script>
+<script src="../UI/js/ui.js"></script>
+<script src="../UI/js/searchHotel.js"></script>
+
+
+  <!-- <script src="getHotel.js"></script>
+  <script src="ui.js"></script>
+  <script src="searchHotel.js"></script> -->
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+form {
+    margin: 100px;
+  }
+  input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    /* padding: 0.5rem 0; */
+    border-bottom: 1px solid #d3d3d3;
+    /* box-shadow: none;
+    color: #111; */
+  }
+  .photo, .sign-up{
+   display: flex;
+   justify-content: center;
+    margin: auto;
+}
+  .sign-up{
+   display: flex;
+   justify-content: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+
+  .login{
+    width: 100%;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  
+  @media only screen and (max-width: 320px) {
+ 
+    .login{
+        width: 130%;
+        font-size: 11px;
+        margin-right:200vh;
+      }
+      .welcome{
+          font-size: 25px;
+      }
+}
+ 
+
+  .contain {
+    width: 50%;
+    margin: auto;
+  }
+  .mt{
+    margin-top: 13vh
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+  .delete{
+    color:red;
+  }
+  .edit{
+    color:blue;
+  }
+
+  .success, .error{
+   color: white;
+   padding : 5px;
+   margin: 5px 0 15px 0; 
+   }
+    
+   .success {
+      color: green;
+    }
+    
+    .error {
+    color: red;
+    }

@@ -1,0 +1,54 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "name": "francis",
+      "email": "test@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "francis",
+      "email": "test@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "name": "xavier",
+      "email": "g@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 2,
+      "hotel_name": "Top Rank Hotels Galaxy",
+      "address": "Plot 245, pow Mafemi, off Solomom Lar Way, Utako",
+      "location": "Utako",
+      "state": "Abuja"
+    },
+    {
+      "id": 3,
+      "hotel_name": "Finco Guest Inn",
+      "address": "24, Off Berger Quarry Road, Abuja",
+      "location": "Berger",
+      "state": "Abuja"
+    },
+    {
+      "id": 4,
+      "hotel_name": "Beni Hotels",
+      "address": "11/13 Wimo Onatere Street, Off Broad Street",
+      "location": "wimo",
+      "state": "lagos"
+    },
+    {
+      "hotel_name": "Transcorp Hilton",
+      "address": "maitama",
+      "location": "maitama east ",
+      "state": "Abuja",
+      "id": 5
+    }
+  ]
+}

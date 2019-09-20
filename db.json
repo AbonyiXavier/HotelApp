@@ -5,6 +5,20 @@
       "name": "francis",
       "email": "test@gmail.com",
       "password": "12345"
+    },
+    {
+      "first_name": "jay",
+      "email": "test@gmail.com",
+      "password": "v9te6v9uEQzzb27",
+      "confirmpassword": "v9te6v9uEQzzb27",
+      "id": 2
+    },
+    {
+      "first_name": "testing",
+      "email": "eamil@gmail.com",
+      "password": "abc123",
+      "confirmpassword": "abc123",
+      "id": 3
     }
   ],
   "users": [

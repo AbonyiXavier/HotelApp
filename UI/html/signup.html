@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hotel Listing System</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+  <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
+    <a class="navbar-brand" href="index.html"><em>Hotellisting</em></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Booking
+          </a>
+          <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+            <a class="dropdown-item" href="#">How to make Bookings</a>
+            <a class="dropdown-item" href="#">How to make payments</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item">
+          <a href="http://twitter.com/abonyi_michael" class="nav-link waves-effect waves-light">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"> Account</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+            <a class="dropdown-item" href="signup.html">SignUp</a>
+            <a class="dropdown-item" href="login.html">Login</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <h1 class="text-center welcome mb-3">SIGN UP</h1>
+        <i class=" sign-up fas fa-user-plus"></i>
+        <div class="help"></div>
+        <form id="sign">
+          <div class="form-group">
+              <input type="text" class="form-control"
+                id="first-name"  placeholder="First Name">
+                <span id="first-name-span"></span>
+          </div>
+    
+          <div class="form-group">
+              <input type="text" class="form-control"
+                id="email"  placeholder="Email">
+               <span id="email-span"></span>
+          </div>
+          <div class="form-group">
+              <input type="password" class="form-control"
+                id="password"  placeholder="Password">
+                 <span id="password-span"></span>
+          </div>
+          <div class="form-group">
+              <input type="password" class="form-control"
+               id="confirm-password"   placeholder="Confirm Password">
+             <span id="confirm-password-span"></span>
+          </div>
+          <input type="submit" id="submit" class="btn default-color login btn-block mb-2">
+      </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+  </script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js">
+  </script>
+  <script src="../js/signup.js"></script>
+  <script></script>
+</body>
+
+</html>

@@ -19,6 +19,13 @@
       "password": "abc123",
       "confirmpassword": "abc123",
       "id": 3
+    },
+    {
+      "first_name": "meeee",
+      "email": "me@gmail.com",
+      "password": "pass1234",
+      "confirmpassword": "pass1234",
+      "id": 4
     }
   ],
   "users": [
